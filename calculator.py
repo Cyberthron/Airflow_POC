@@ -57,5 +57,5 @@ with dag:
         task_id="div", 
         python_callable=div
     )
-addition>>subtraction>>multiplication>>division
+dummy_operator>>addition>>subtraction>>multiplication>>division
 

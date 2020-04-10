@@ -24,3 +24,7 @@ Extra: {
          "database": <YOUR_SNOWFLAKE_DB_NAME>,
          "region": <YOUR_SNOWFLAKE_HOSTED_REGION>
     }
+Integrate Airflow with Datadog
+
+
+

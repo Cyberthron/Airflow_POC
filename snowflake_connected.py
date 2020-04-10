@@ -6,7 +6,9 @@ from airflow.hooks.base_hook import BaseHook	# Integrate with snowflake
 from airflow.operators.python_operator import PythonOperator
 from airflow import AirflowException
 from airflow.utils.email import send_email	#For email access
-
+import statd
+# Integrate with Datadogs
+statsd_client = statsd.statsclient('localhost',8125,prefix='Airflow')
 
 # Logging 
 
